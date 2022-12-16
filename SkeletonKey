@@ -1,5 +1,5 @@
 if not isfile("skellyKey.rbxm") then
-            writefile("skellyKey.rbxm", game:HttpGet"https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/skellyKey.rbxm")
+            writefile("skellyKey.rbxm", game:HttpGet"https://raw.githubusercontent.com/DoorsThingy/Utilites//blob/main/skellyKey%20(1).rbxm")
         end
         local keyTool: Tool=game:GetObjects((getcustomasset or getsynasset)("skellyKey.rbxm"))[1]
         keyTool:SetAttribute("uses", math.huge) --uses u want to put to the key
@@ -32,8 +32,8 @@ if not isfile("skellyKey.rbxm") then
         if game.Players.LocalPlayer.PlayerGui.MainUI.ItemShop.Visible then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Shop%20Items/Source.lua"))().CreateItem(keyTool, {
                 Title = "Skeleton Key",
-                Desc = "holds secrets",
-                Image = "https://static.wikia.nocookie.net/doors-game/images/8/88/Icon_crucifix2.png/revision/latest/scale-to-width-down/350?cb=20220728033038",
+                Desc = "Secret....",
+                Image = "https://roblox.com/library/11831293495/Icon-skeletonkey2",
                 Price = 100,
                 Stack = 1,
             })
